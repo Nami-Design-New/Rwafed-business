@@ -1399,3 +1399,148 @@ footer .box ul li a:hover {
   margin: 0;
   font-size: 16px;
 }
+
+/* */
+.online_services aside {
+  position: sticky;
+  top: 85px; /* the height of the header (60px) + its bottom margin (20px) */
+  background:var(--bgColor);
+  height: 100vh;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+
+.online_services main {
+  flex-grow: 1;
+}
+.online_services .content{
+  padding: 40px 30px;
+}
+
+.online_services .nav-link{
+  border-right: 3px solid #ddd;
+  background-color: transparent;
+  color: var(--text);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius:0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: right;
+}
+.online_services .nav-link  img{
+  height: 35px;
+  margin-left: 10px;
+  width: 40px;
+  object-fit: contain;
+  text-align: center;
+}
+.online_services .nav-link.active{
+  border-color:var(--mainColor);
+  background-color: transparent;
+  color: var(--mainColor);
+}
+.online_services .form-control{
+  background-color: var(--bgColor);
+  box-shadow: 0 1px 3px #03493136 !important;
+  min-height: 45px;
+}
+.online_services label{
+  font-size: 15px;
+}
+.online_services label span,
+.online_services small{
+  color: var(--Color);
+} 
+
+.online_services .nots p{
+  font-size: 14px;
+  color: var(--text);
+}
+.online_services .nots h4{
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--mainColor);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.online_services .nots ul li{
+  font-size: 15px;
+  color: var(--text);
+  margin-bottom: 7px;
+}
+@media(max-width:768px){
+  .online_services .title{
+    text-align: right;
+  }
+}
+@media(max-width:575px){
+  .online_services aside {
+    position: unset;
+    height: unset ;
+    padding-bottom: 40px;
+  } 
+
+}
+
+/* dropzone */
+.dropzone_div {
+  width: 98%;
+  margin: 1%;
+  border: 2px dashed #ddd !important;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.dropzone.dz-drag-hover {
+  border: 2px solid #3498db !important;
+}
+
+.dz-message.needsclick img {
+  width: 50px;
+  display: block;
+  margin: auto;
+  opacity: 0.3;
+  margin-bottom: 15px;
+}
+
+span.plus {
+  display: none;
+}
+
+.dropzone.dz-started .dz-message {
+  display: inline-block !important;
+  width: 120px;
+  float: left;
+  border: 1px solid rgba(238, 238, 238, 0.36);
+  border-radius: 30px;
+  height: 120px;
+  margin: 16px;
+  transition: 0.2s;
+}
+.dropzone.dz-started .dz-message span.text {
+  display: none;
+}
+.dropzone.dz-started .dz-message span.plus {
+  display: block;
+  font-size: 70px;
+  color: #AAA;
+  line-height: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

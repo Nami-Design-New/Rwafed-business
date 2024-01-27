@@ -1529,18 +1529,132 @@ span.plus {
   color: #AAA;
   line-height: 110px;
 }
+/* Uae_visa  */
 
+.Uae_visa .all-about {
+  background-color: var(--bgColor);
+  box-shadow: 0px 0px 6px #e2e2e2;
+  border-radius: 6px;
+  padding-bottom: 10px;
+}
 
+.Uae_visa .all-about .title_text {
+  background-color: var(--mainColor);
+  display: inline-block;
+  margin-right: -16px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  margin-top: 25px !important;
+}
 
+.Uae_visa .all-about .title_text h4 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  padding: 9px 30px;
+  position: relative;
+}
 
+.Uae_visa .all-about .title_text h4:after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  right: 0;
+  transform: rotate(270deg);
+  border: solid;
+  border-color: #021b12 transparent;
+  border-width: 16px 0 0px 16px;
+}
+.Uae_visa .all-about ul{
+  list-style: circle;
+}
+.Uae_visa .all-about li{
+  margin-bottom: 10px;
+}
+.Uae_visa .all-about li strong{
+  min-width: 110px;
+  display: inline-block;
+}
+.visa_new{
+  background-image: url(../images/home/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 400px;
+  z-index: 5;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.visa_new:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--mainColor);
+  opacity: .7;
+  z-index: -1;
 
+}
+.visa_new h3{
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.visa_new p{
+  font-size: 18px;
+  color: #fff;
+  max-width: 700px;
+  margin: 20px auto;
+}
 
+.all_forms{
+  background-color: var(--bgColor);
+  padding: 40px 20px;
+}
+.all_forms .form-control{
+  background-color: #fff !important;
+}
 
+/* strategy_box */
+.strategy {
+  margin-top: -10px;
+}
+.strategy .strategy_box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  min-height: 300px;
+}
+.strategy .strategy_box h3{
+  color: var(--mainColor);
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: right;
+}
+.strategy .strategy_box .text{
+  max-width: 550px;
+  margin: 20px auto;
+}
+.strategy .strategy_box p{
+  font-size: 18px;
+  text-align: justify;
+}
 
-
-
-
-
-
+.strategy .strategy_box ul{
+  list-style: circle;
+  text-align: justify;
+}
 
 

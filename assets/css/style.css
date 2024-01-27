@@ -1656,5 +1656,46 @@ span.plus {
   list-style: circle;
   text-align: justify;
 }
+/* immigrant_text */
+.immigrant_text{
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+}
+.banner.immigrant_text:after {
+  background: linear-gradient(to right, #00000000 0%, var(--mainColor) 90%);
+}
+.immigrant_text .text{
+  text-align: center;
+}
+.immigrant_text .text h3{
+  font-weight: bold;
+}
+.immigrant_text .text p{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  max-width: 750px;
+  margin: 30px auto 0px;
+}
+.immigrant_about ul{
+  list-style: circle;
+  text-align: justify;
+}
+.immigrant_about ul li{
+  margin-bottom: 10px;
+}
+.vision_mision .flip-box__layer__overlay{
+  padding: 35px 15px;
+}
+.vision_mision .flip-box__layer__inner p{
+  font-size: 15px;
+}
 
-
+.title_text_box{
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--mainColor);
+  margin-top: 20px !important;
+  margin-bottom: 15px !important;
+}

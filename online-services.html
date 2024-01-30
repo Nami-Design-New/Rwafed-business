@@ -128,24 +128,24 @@
         <div class="row m-0">
             <aside class="col-lg-3 col-md-4 col-sm-5">
                 <div class="nav nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-rwafed-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rwafed" type="button" role="tab" aria-controls="v-pills-rwafed" aria-selected="true">
+                    <a href="#services_rwafed" class="nav-link active" id="v-pills-rwafed-tab" data-bs-toggle="pill" data-bs-target="#v-pills-rwafed" type="button" role="tab" aria-controls="v-pills-rwafed" aria-selected="true">
                         <img src="assets/images/logo/short-logo1.png" alt=""> خدمات روافد
-                    </button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    </a>
+                    <a href="#profile_rwafed" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                         <img src="assets/images/icons/identification.png" alt=""> الهوية الاماراتيه
-                    </button>
-                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                    </a>
+                    <a href="#medical" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
                         <img src="assets/images/icons/medical-report.png" alt=""> التامين الصحي
-                    </button>
-                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    </a>
+                    <a href="#tsahel" class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
                         <img src="assets/images/logo/short-logo1.png" alt="">خدمات تسهيل 
-                    </button>
-                    <button class="nav-link" id="v-pills-hospital-tab" data-bs-toggle="pill" data-bs-target="#v-pills-hospital" type="button" role="tab" aria-controls="v-pills-hospital" aria-selected="false">
+                    </a>
+                    <a href="#hospital" class="nav-link" id="v-pills-hospital-tab" data-bs-toggle="pill" data-bs-target="#v-pills-hospital" type="button" role="tab" aria-controls="v-pills-hospital" aria-selected="false">
                         <img src="assets/images/icons/order/stethoscope.png" alt=""> هيئة الصحة بدبي 
-                    </button>
-                    <button class="nav-link" id="v-pills-gold-tab" data-bs-toggle="pill" data-bs-target="#v-pills-gold" type="button" role="tab" aria-controls="v-pills-gold" aria-selected="false">
+                    </a>
+                    <a href="#passport" class="nav-link" id="v-pills-gold-tab" data-bs-toggle="pill" data-bs-target="#v-pills-gold" type="button" role="tab" aria-controls="v-pills-gold" aria-selected="false">
                         <img src="assets/images/icons/order/passport.png" alt="">   التأشيره الذهبية 
-                    </button>
+                    </a>
                 </div>
             </aside>
             <main class="col-lg-9 col-md-8 col-sm-7">
@@ -745,8 +745,36 @@
         
     </script>
 
-
-
+    <!-- link  -->
+    <script>
+        let url = location.href.replace(/\/$/, '');
+        if (location.hash) {
+        const hash = url.split('#');
+        const currentTab = document.querySelector('#v-pills-tab a[href="#' + hash[1] + '"]');
+        const curTab = new bootstrap.Tab(currentTab);
+        curTab.show();
+        url = location.href.replace(/\/#/, '#');
+        history.replaceState(null, null, url);
+        setTimeout(() => {
+            window.scrollTop = 0;
+        }, 400);
+        }
+        // change url based on selected tab
+        const selectableTabList = [].slice.call(document.querySelectorAll('a[data-bs-toggle="pill"]'));
+        selectableTabList.forEach((selectableTab) => {
+        const selTab = new bootstrap.Tab(selectableTab);
+        selectableTab.addEventListener('click', function () {
+            var newUrl;
+            const hash = selectableTab.getAttribute('href');
+            if (hash == '#services_rwafed') {
+            newUrl = url.split('#')[0];
+            } else {
+            newUrl = url.split('#')[0] + hash;
+            }
+            history.replaceState(null, null, newUrl);
+        });
+    });
+    </script>
 </body>
 
 </html>

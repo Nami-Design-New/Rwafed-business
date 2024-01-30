@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: "NotoSansArabic";
-    src: url("../webfonts/NotoSansArabic-Regular.ttf") format("opentype");
+    font-family: "GE_SS_TV";
+    src: url("../webfonts/GE-SS-TV.otf") format("opentype");
 }
 
 @font-face {
@@ -234,8 +234,8 @@
 }
 
 body {
-    /* font-family: "NotoSansArabic"; */
-    font-family: "Tajawal";
+    font-family: "GE_SS_TV";
+    /* font-family: "Tajawal"; */
     color: var(--textColor);
     overflow-x: hidden;
 }
@@ -370,7 +370,7 @@ button {
 .title {
     color: var(--mainColor) !important;
     position: relative;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
     text-align: right;
     max-width: 800px;
@@ -378,7 +378,7 @@ button {
 }
 
 .text {
-    font-size: 18px;
+    font-size: 21px;
     margin-bottom: 5px;
     margin-top: 30px;
     color: var(--text);
@@ -386,7 +386,7 @@ button {
 }
 
 .sub_title {
-    font-size: 15px;
+    font-size: 17px;
     color: var(--Color);
     padding: 6px 0px;
     margin-bottom: 0px;

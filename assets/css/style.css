@@ -80,7 +80,7 @@
 
 .navbar .sps .navbar-nav .nav-item a {
   color: var(--mainColor);
-  font-size: 17px;
+  font-size: 19px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -271,7 +271,7 @@
 }
 
 .submit_applications .app h4 {
-  font-size: 20px;
+  font-size: 21px;
   color: var(--mainColor);
   margin: 0;
   font-weight: bold;
@@ -522,7 +522,7 @@
 }
 
 .delivery_service ul li {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 8px;
 }
 
@@ -612,13 +612,13 @@
 }
 
 .testimonial .testimonal_user .item p {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--text);
   transition: 0.5s;
 }
 
 .testimonial .testimonal_user .item h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--Color);
   display: flex;
   align-items: center;
@@ -671,14 +671,14 @@
 }
 
 .subscribe h3 {
-  font-size: 25px;
+  font-size: 28px;
   color: #fff;
   font-weight: bold;
   margin-bottom: 17px;
 }
 
 .subscribe h6 {
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   margin-bottom: 0px;
 }
@@ -729,10 +729,9 @@ footer {
 }
 
 footer .box p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   color: #fff;
-  padding-left: 20px;
   max-width: 400px;
   font-weight: 100;
 }
@@ -740,7 +739,6 @@ footer .box p {
 footer h4 {
   font-size: 22px;
   color: var(--bgColor);
-  margin-left: 16px;
   margin-bottom: 30px;
   font-weight: bold;
 }
@@ -771,7 +769,7 @@ footer .box ul.social-icon li i {
 
 footer .box ul li {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   padding: 5px 0px;
   position: relative;
   display: inline-block;
@@ -843,7 +841,7 @@ footer .box ul li a:hover {
 .copy-right span {
   padding-top: 2px;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .copy-right .list-social li {
@@ -872,7 +870,7 @@ footer .box ul li a:hover {
 .copy-right .list-social li.icon a {
   color: #fff;
   transition: .5s;
-  font-size: 13px
+  font-size: 15px
 }
 
 .copy-right p {
@@ -883,7 +881,7 @@ footer .box ul li a:hover {
   background-position: left 5px;
   background-size: 40px 13px;
   background-repeat: no-repeat;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 
@@ -1003,7 +1001,7 @@ footer .box ul li a:hover {
 }
 
 .flip-box__layer__inner img {
-  width: 70px;
+  height: 70px;
   margin-bottom: 25px;
 }
 
@@ -1014,7 +1012,7 @@ footer .box ul li a:hover {
 }
 
 .flip-box__layer__inner h3 {
-  font-size: 22px;
+  font-size: 23px;
   color: var(--mainColor);
   margin-bottom: 0;
   font-weight: bold;
@@ -1185,7 +1183,7 @@ footer .box ul li a:hover {
 }
 
 .news .news_title {
-  font-size: 16px;
+  font-size: 17px;
   padding: 10px 10px 0;
   text-align: right !important;
   color: var(--mainColor);
@@ -1209,14 +1207,14 @@ footer .box ul li a:hover {
 
 .news_details p {
   padding: 10px;
-  font-size: 17px;
+  font-size: 18px;
   text-align: justify;
 }
 
 .news_details h3 {
   padding: 5px 10px;
   color: var(--Color);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -1277,6 +1275,7 @@ footer .box ul li a:hover {
   padding: 15px;
   border-radius: 8px;
   color: var(--text);
+  font-size: 16px;
 }
 
 .contact_us .form-control::placeholder {
@@ -1422,7 +1421,7 @@ footer .box ul li a:hover {
   border-right: 3px solid #ddd;
   background-color: transparent;
   color: var(--text);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   border-radius:0;
   padding-top: 15px;
@@ -1460,14 +1459,14 @@ footer .box ul li a:hover {
   color: var(--text);
 }
 .online_services .nots h4{
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
   color: var(--mainColor);
   margin-top: 25px;
   margin-bottom: 15px;
 }
 .online_services .nots ul li{
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text);
   margin-bottom: 7px;
 }

@@ -1698,3 +1698,70 @@ span.plus {
   margin-top: 20px !important;
   margin-bottom: 15px !important;
 }
+
+.steps_box .nav-link{
+  border-inline-width: 1px ;
+}
+
+.inner_text h3{
+  color: var(--Color);
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.inner_text ul{
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+.inner_text ul li{
+  font-size: 18px;
+  padding-bottom: 6px;
+  list-style: circle;
+}
+.inner_text h5{
+  color: var(--mainColor);
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.inner_text .box{
+  background-color: var(--mainColor);
+  padding: 25px 15px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.inner_text .box:after{
+  content:'';
+  background-image: url(../images/logo/short-logo.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  opacity: .2;
+  z-index: -1;
+}
+.inner_text .box h2{
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.inner_text .box h6{
+  color: #fff;
+  font-size: 18px;
+}
+.inner_text .box h6 span{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.inner_text .box strong{
+  font-size: 18px;
+  color: var(--Color);
+  letter-spacing: 1px;
+}

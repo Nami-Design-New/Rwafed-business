@@ -238,6 +238,7 @@ body {
     /* font-family: "Tajawal"; */
     color: var(--textColor);
     overflow-x: hidden;
+    unicode-bidi: bidi-override;
 }
 
 * {
